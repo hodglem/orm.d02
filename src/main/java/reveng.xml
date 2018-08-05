@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering 
+  SYSTEM "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<schema-selection match-catalog="district02aa" />
+	<table-filter match-name="meetings" />
+	<table-filter match-name="meeting_type" />
+	<table-filter match-name="meeting_occur" />
+	<table-filter match-name="meeting_location" />
+	<table-filter match-name="city" />
+</hibernate-reverse-engineering>
