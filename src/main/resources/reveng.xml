@@ -5,7 +5,8 @@
 <hibernate-reverse-engineering>
 	<schema-selection match-catalog="district02aa" />
 	<table-filter match-name="meetings" />
-	<table-filter match-name="meeting_type" />
+	<table-filter match-name="meeting_options" />
+	<table-filter match-name="options" />
 	<table-filter match-name="meeting_occur" />
 	<table-filter match-name="meeting_location" />
 	<table-filter match-name="city" />
